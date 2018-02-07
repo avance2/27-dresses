@@ -1,0 +1,73 @@
+@import "uikit.min";
+@import "mediaplayer.min";
+@import url('https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Lora|Parisienne|Sacramento|Shadows+Into+Light|Quicksand');
+
+
+// Headline
+// Body Font
+// Score: 0, 0, 0, 2
+
+.uk-container {
+	max-width: 99%;
+}
+
+body {
+	background-repeat: repeat;
+}
+
+video {
+	display: flex;
+	justify-content: center;
+}
+
+.mejs__controls {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.mejs__container {
+	margin-left: 40px;
+	background: white;
+	display: flex;
+	justify-content: center;
+	width:100%;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	color: hotpink;
+	font-size: 72pt;
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	display: flex;
+	color: hotpink;
+	justify-content: center;
+	fonulze: 6pt;
+}
+
+span h2, span ul{
+	display: inline-block;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	font-size: 48pt;
+}
+
+footer a {
+	color: hotpink;
+	font-size: 6pt;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
