@@ -8,39 +8,64 @@
 // Score: 0, 0, 0, 2
 
 .uk-container {
-	max-width: 99%;
+	max-width: 75%;
+	background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
 }
 
-body {
-	background-repeat: repeat;
-}
+// Code from: Jonathan Gotti https://codepen.io/malko/pen/Eyxep
+
+
+.gallery{
+			position:relative;
+			top:100px;
+			left:100px;
+		}
+
+.gallery li{
+			position:absolute;
+			display:block;
+			margin:0;
+			list-style-type:none;
+			padding:10px 10px 30px 10px;
+			background:#fff;
+			border:solid black 1px;
+			-webkit-box-shadow:2px 2px 4px #333333;
+			-webkit-transition: -webkit-transform 0.5s ease;
+			-moz-box-shadow:2px 2px 4px #333333;
+			-moz-transition: -moz-transform 0.5s ease;
+			box-shadow:2px 2px 4px #333333;
+			transition: transform 0.5s ease;
+		}
+
+.gallery li.active{
+			-webkit-transform:rotate(0deg) !important;
+			-moz-transform:rotate(0deg) !important;
+			transform:rotate(0deg) !important;
+		}
+
+.gallery img{
+			display:block;
+			width:160px;
+			-webkit-transition: width 0.75s;
+			-moz-transition: width 0.75s;
+			transition: width 0.75s;
+		}
+
+.gallery .active img{
+			display:block;
+			width:640px;
+		}
 
 video {
-	display: flex;
-	justify-content: center;
-}
-
-.mejs__controls {
-    position: absolute;
-    list-style-type: none;
-    margin: 0;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    width: 100%;
-}
-
-.mejs__container {
-	margin-left: 40px;
-	background: white;
-	display: flex;
-	justify-content: center;
-	width:100%;
+	background: ivory;
+	margin-left: 20px;
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
-	color: hotpink;
+	font-family: 'Sacramento', cursive;
+	color: ivory;
 	font-size: 72pt;
 	display: flex;
 	justify-content: center;
@@ -48,26 +73,20 @@ h1 {
 
 footer {
 	display: flex;
-	color: hotpink;
+	color: ivory;
 	justify-content: center;
-	fonulze: 6pt;
-}
-
-span h2, span ul{
-	display: inline-block;
-	font-family: 'Quicksand', sans-serif;
-}
-
-h2 {
-	font-size: 48pt;
+	padding-bottom: 10px;
 }
 
 footer a {
-	color: hotpink;
+	color: ivory;
 	font-size: 6pt;
 }
 
 p {
 	font-family: 'Quicksand', sans-serif;
-	color: white;
+	color: ivory;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 15px;
+	font-size: 12px;
 }

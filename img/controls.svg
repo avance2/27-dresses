@@ -4,50 +4,50 @@
     <g id="play_pause" data-name="play/pause">
       <g id="play">
         <g id="Polygon">
-          <path d="M16.31,9.48a.56.56,0,0,1,0,1l-11.38,7c-.47.29-.85.07-.85-.48V3c0-.55.38-.77.85-.48Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
+          <path d="M16.31,9.48a.56.56,0,0,1,0,1l-11.38,7c-.47.29-.85.07-.85-.48V3c0-.55.38-.77.85-.48Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
         </g>
       </g>
     </g>
     <g id="pause">
       <g>
-        <rect x="23" y="1.01" width="4.2" height="16" rx="1" ry="1" style="fill: hotpink"/>
-        <rect x="32.8" y="1.01" width="4.2" height="16" rx="1" ry="1" style="fill: hotpink"/>
+        <rect x="23" y="1.01" width="4.2" height="16" rx="1" ry="1" style="fill: #fff"/>
+        <rect x="32.8" y="1.01" width="4.2" height="16" rx="1" ry="1" style="fill: #fff"/>
       </g>
     </g>
     <g id="fullscreen">
       <g id="enter">
-        <path d="M80.83,2.38a1,1,0,0,1,1-1h5.41c.55,0,.68.32.29.71l-6,6c-.39.39-.71.26-.71-.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M80.83,18.17a1,1,0,0,0,1,1h5.41c.55,0,.68-.32.29-.71l-6-6c-.39-.39-.71-.26-.71.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M98.63,2.38a1,1,0,0,0-1-1H92.21c-.55,0-.68.32-.29.71l6,6c.39.39.71.26.71-.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M98.63,18.17a1,1,0,0,1-1,1H92.21c-.55,0-.68-.32-.29-.71l6-6c.39-.39.71-.26.71.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
+        <path d="M80.83,2.38a1,1,0,0,1,1-1h5.41c.55,0,.68.32.29.71l-6,6c-.39.39-.71.26-.71-.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M80.83,18.17a1,1,0,0,0,1,1h5.41c.55,0,.68-.32.29-.71l-6-6c-.39-.39-.71-.26-.71.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M98.63,2.38a1,1,0,0,0-1-1H92.21c-.55,0-.68.32-.29.71l6,6c.39.39.71.26.71-.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M98.63,18.17a1,1,0,0,1-1,1H92.21c-.55,0-.68-.32-.29-.71l6-6c.39-.39.71-.26.71.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
       </g>
     </g>
     <g id="exit">
       <g>
-        <path d="M112.53,6a1,1,0,0,0,1,1h4.1c.55,0,.68-.32.29-.71l-4.68-4.68c-.39-.39-.71-.26-.71.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M105.43,7a1,1,0,0,0,1-1V1.88c0-.55-.32-.68-.71-.29L101,6.27c-.39.39-.26.71.29.71Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M106.43,14.07a1,1,0,0,0-1-1h-4.1c-.55,0-.68.32-.29.71l4.68,4.68c.39.39.71.26.71-.29Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-        <path d="M113.53,13.07a1,1,0,0,0-1,1v4.1c0,.55.32.68.71.29l4.68-4.68c.39-.39.26-.71-.29-.71Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
+        <path d="M112.53,6a1,1,0,0,0,1,1h4.1c.55,0,.68-.32.29-.71l-4.68-4.68c-.39-.39-.71-.26-.71.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M105.43,7a1,1,0,0,0,1-1V1.88c0-.55-.32-.68-.71-.29L101,6.27c-.39.39-.26.71.29.71Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M106.43,14.07a1,1,0,0,0-1-1h-4.1c-.55,0-.68.32-.29.71l4.68,4.68c.39.39.71.26.71-.29Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+        <path d="M113.53,13.07a1,1,0,0,0-1,1v4.1c0,.55.32.68.71.29l4.68-4.68c.39-.39.26-.71-.29-.71Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
       </g>
     </g>
     <g id="volume">
-      <path d="M66.8,6.77a3.51,3.51,0,0,1-1.8.6H61.85a1,1,0,0,0-1,1V14.1a1,1,0,0,0,1,1H65a6.28,6.28,0,0,1,1,0,8.5,8.5,0,0,0,.81.63l3.54,2.6c.44.33.81.14.81-.41V4.5c0-.55-.36-.73-.8-.4Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
+      <path d="M66.8,6.77a3.51,3.51,0,0,1-1.8.6H61.85a1,1,0,0,0-1,1V14.1a1,1,0,0,0,1,1H65a6.28,6.28,0,0,1,1,0,8.5,8.5,0,0,0,.81.63l3.54,2.6c.44.33.81.14.81-.41V4.5c0-.55-.36-.73-.8-.4Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
       <g id="volume-2" data-name="volume">
         <g id="soundbars">
-          <path d="M73.72,3.5s3.95-.81,3.87,7.73S73.72,19,73.72,19" transform="translate(0.17 -0.99)" style="fill: none;stroke: hotpink;stroke-linecap: round;stroke-width: 1.5px"/>
-          <path d="M72.43,7.38S75.06,7,75,11.23s-2.58,3.86-2.58,3.86" transform="translate(0.17 -0.99)" style="fill: none;stroke: hotpink;stroke-linecap: round;stroke-width: 1.5px"/>
+          <path d="M73.72,3.5s3.95-.81,3.87,7.73S73.72,19,73.72,19" transform="translate(0.17 -0.99)" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-width: 1.5px"/>
+          <path d="M72.43,7.38S75.06,7,75,11.23s-2.58,3.86-2.58,3.86" transform="translate(0.17 -0.99)" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-width: 1.5px"/>
         </g>
       </g>
     </g>
     <g id="closed_captions" data-name="closed captions">
-      <path d="M128.53,9.58c-6.17-4.21-6.46,7.77,0,3.92" transform="translate(0.17 -0.99)" style="fill: none;stroke: hotpink"/>
-      <path d="M135.06,9.58c-6.17-4.21-6.46,7.77,0,3.92" transform="translate(0.17 -0.99)" style="fill: none;stroke: hotpink"/>
-      <path d="M122,4.35h15.69V17.43H122ZM120.68,3V18.73H139V3Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
+      <path d="M128.53,9.58c-6.17-4.21-6.46,7.77,0,3.92" transform="translate(0.17 -0.99)" style="fill: none;stroke: #fff"/>
+      <path d="M135.06,9.58c-6.17-4.21-6.46,7.77,0,3.92" transform="translate(0.17 -0.99)" style="fill: none;stroke: #fff"/>
+      <path d="M122,4.35h15.69V17.43H122ZM120.68,3V18.73H139V3Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
     </g>
     <g id="muted">
-      <path d="M46.8,6.77a3.51,3.51,0,0,1-1.8.6H41.85a1,1,0,0,0-1,1V14.1a1,1,0,0,0,1,1H45a6.28,6.28,0,0,1,1,0,8.5,8.5,0,0,0,.81.63l3.54,2.6c.44.33.81.14.81-.41V4.5c0-.55-.36-.73-.8-.4Z" transform="translate(0.17 -0.99)" style="fill: hotpink"/>
-      <line x1="52.83" y1="6.98" x2="58.22" y2="12.36" style="fill: none;stroke: hotpink;stroke-linecap: round;stroke-width: 2px"/>
-      <line x1="52.83" y1="12.36" x2="58.22" y2="6.98" style="fill: none;stroke: hotpink;stroke-linecap: round;stroke-width: 2px"/>
+      <path d="M46.8,6.77a3.51,3.51,0,0,1-1.8.6H41.85a1,1,0,0,0-1,1V14.1a1,1,0,0,0,1,1H45a6.28,6.28,0,0,1,1,0,8.5,8.5,0,0,0,.81.63l3.54,2.6c.44.33.81.14.81-.41V4.5c0-.55-.36-.73-.8-.4Z" transform="translate(0.17 -0.99)" style="fill: #fff"/>
+      <line x1="52.83" y1="6.98" x2="58.22" y2="12.36" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-width: 2px"/>
+      <line x1="52.83" y1="12.36" x2="58.22" y2="6.98" style="fill: none;stroke: #fff;stroke-linecap: round;stroke-width: 2px"/>
     </g>
     <g id="skip_forward" data-name="skip forward">
       <g id="play_pause-2" data-name="play/pause">
