@@ -11451,16 +11451,15 @@ iframe.uk-cover {
   display: block;
 }
 
+.mejs__container {
+  margin-left: 40px;
+}
+
 .uk-container {
-  max-width: 75%;
+  max-width: 90%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-}
-
-video {
-  background: ivory;
-  margin-left: 20px;
 }
 
 h1 {
@@ -11498,12 +11497,19 @@ h2 {
   font-size: 36px;
 }
 
-sub {
+.info {
+  font-size: 10px;
   color: hotpink;
 }
 
-article p {
-  font-size: 12px;
+.creator {
+  font-size: 10px;
+  color: ivory;
+}
+
+.summary {
+  font-size: 14px;
+  color: ivory;
 }
 
 div p {
