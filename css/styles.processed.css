@@ -11529,6 +11529,23 @@ h3 {
   color: ivory;
 }
 
+.last li {
+  margin: 350px 150px 150px 100px;
+  width: 300px;
+  height: 250px;
+  list-style-type: none;
+  padding: 10px 10px 30px 10px;
+  background: #fff;
+  border: solid black 1pde;
+  transform: rotate(5deg);
+}
+
+.last img {
+  display: block;
+  width: 400px;
+  height: auto;
+}
+
 .gallery {
   position: relative;
   top: 100px;
