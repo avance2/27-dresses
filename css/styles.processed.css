@@ -11539,12 +11539,11 @@ video {
 }
 
 .last {
-  margin: 100px 100px 100px 200px;
+  margin: 100px 100px 100px 150px;
   height: 550px;
   list-style-type: none;
-  padding: 10px 10px 15px 10px;
+  padding: 20px 20px 25px 20px;
   background: #fff;
-  border: solid black 1px;
   transform: rotate(15deg) scale(0.75);
   position: relative;
   top: 250px;
@@ -11557,7 +11556,7 @@ video {
 
 .gallery {
   position: relative;
-  top: 100px;
+  top: 200px;
   left: 400px;
   transform: rotate(15deg) scale(1.5);
 }
@@ -11569,7 +11568,6 @@ video {
   list-style-type: none;
   padding: 10px 10px 30px 10px;
   background: #fff;
-  border: solid black 1px;
   -webkit-box-shadow: 2px 2px 4px #333333;
   -webkit-transition: -webkit-transform 0.5s ease;
   -moz-box-shadow: 2px 2px 4px #333333;
@@ -11586,13 +11584,16 @@ video {
 
 .gallery img {
   display: block;
-  width: 160px;
+  width: 80px;
   -webkit-transition: width 0.75s;
   -moz-transition: width 0.75s;
   transition: width 0.75s;
+  transform: scale(2.5);
+  padding: 5px 5px 15px 5px;
+  background: #fff;
 }
 
 .gallery .active img {
   display: block;
-  transform: scale(1);
+  transform: scale(2.5);
 }
