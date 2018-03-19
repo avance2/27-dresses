@@ -7,31 +7,25 @@
 // Body Font
 // Score: 0, 0, 0, 2
 
+.mejs__controls {
+	bottom: 225px;
+}
+
 .mejs__container {
-    margin-left: 40px;
-	margin-bottom: 125px
+	background: rgba(0, 0, 0, 0);
+	top: 180px;
+	margin-bottom: 100px;
+	// left: -15px;
+	height: 600px;
 }
 
-// .mejs__mediaelement {
-//     width: 100%;
-//     margin-bottom: 150px;
-//     height: 100%;
+// .video {
+// 	// top: 2000px;
 // }
-
-.uk-container {
-	max-width: 70%;
-	background-repeat: no-repeat;
-   background-size: cover;
-   height: 100%;
-}
-
-.uk-column-1-3 {
-	 column-gap: 75px;
-}
 
 h1 {
 	font-family: 'Sacramento', cursive;
-	color: ivory;
+	color: hotpink;
 	font-size: 72pt;
 	display: flex;
 	justify-content: center;
@@ -40,13 +34,13 @@ h1 {
 
 footer {
 	display: flex;
-	color: ivory;
+	color: hotpink;
 	justify-content: center;
 	padding-bottom: 10px;
 }
 
 footer a {
-	color: ivory;
+	color: hotpink;
 	font-size: 6pt;
 }
 
@@ -56,15 +50,12 @@ article {
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 30px;
 	font-size: 12px;
-}
-
-aside {
-	width: 100%;
+	top: 300px;
 }
 
 h2 {
 	font-family: 'Sacramento', cursive;
-	color: ivory;
+	color: black;
 	font-size: 36px;
 }
 
@@ -75,112 +66,108 @@ h2 {
 
 .creator {
 	font-size: 10px;
-	color: ivory;
+	color: black;
 }
 
 .summary {
 	font-size: 14px;
-	color: ivory;
+	color: black;
 }
 
 div p {
-	margin-top: -50px;
+	// margin-top: -50px;
 	color: hotpink;
 	background-color: rgba(255, 255, 255, 0.5);
 	padding: 10px;
-	font-size: 12px;
+	font-size: 24px;
 }
 
 h3 {
 	font-family: 'Sacramento', cursive;
-	color: ivory;
+	color: black;
 }
 
-// aside, article, hr, .last {
-// 	margin-top: 200px;
-// }
-
-video {
-	margin-bottom: 300px;
-}
-// .uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
-// 	margin-top: 200px;
-// }
-
-// hr {
-// 	margin: 0 100px 0 200px;
-// }
-
-.last {
-			margin: 100px 100px 100px 150px;
-			// width: 300px;
-			// top: 200px;
-			height: 550px;
-			list-style-type:none;
-			padding:20px 20px 25px 20px;
-			background:#fff;
-			// border:solid black 3px;
-			transform: rotate(15deg) scale(.75);
-	   	position: relative;
-    		top: 250px;
-		}
-
-.uk-width-1-2 {
-    width: 50%;
-    margin-bottom: 125px;
+.hal {
+	transform: scale(1.25);
 }
 
-// .last img{
-// 			display: block;
-// 			// width: 400px;
-// 			height: auto;
+.uk-grid>* {
+	padding: 0;
+	margin: 0;
+}
+
+// li img {
+// 	height: 100%;
+// }
+
+
+// video {
+// 	margin-bottom: 300px;
+// }
+
+// .uk-grid {
+// 	padding: 0;
+// }
+
+// .last {
+// 			margin: 100px 100px 100px 150px;
+// 			// width: 300px;
+// 			// top: 200px;
+// 			height: 550px;
+// 			list-style-type:none;
+// 			padding:20px 20px 25px 20px;
+// 			background:#fff;
+// 			// border:solid black 3px;
+// 			transform: rotate(15deg) scale(.75);
+// 	   	position: relative;
+//     		top: 250px;
 // 		}
 
 
 // Code from: Jonathan Gotti https://codepen.io/malko/pen/Eyxep
 
 
-.gallery{
-			position:relative;
-			top:200px;
-			left:400px;
-			transform: rotate(15deg) scale(1.5);
-		}
+// .gallery{
+// 			position:relative;
+// 			top:200px;
+// 			left:400px;
+// 			transform: rotate(15deg) scale(1.5);
+// 		}
 
-.gallery li{
-			position:absolute;
-			display:block;
-			margin:0;
-			list-style-type:none;
-			padding:10px 10px 30px 10px;
-			background:#fff;
-			-webkit-box-shadow:2px 2px 4px #333333;
-			-webkit-transition: -webkit-transform 0.5s ease;
-			-moz-box-shadow:2px 2px 4px #333333;
-			-moz-transition: -moz-transform 0.5s ease;
-			box-shadow:2px 2px 4px #333333;
-			transition: transform 0.5s ease;
-		}
+// .gallery li{
+// 			position:absolute;
+// 			display:block;
+// 			margin:0;
+// 			list-style-type:none;
+// 			padding:10px 10px 30px 10px;
+// 			background:#fff;
+// 			-webkit-box-shadow:2px 2px 4px #333333;
+// 			-webkit-transition: -webkit-transform 0.5s ease;
+// 			-moz-box-shadow:2px 2px 4px #333333;
+// 			-moz-transition: -moz-transform 0.5s ease;
+// 			box-shadow:2px 2px 4px #333333;
+// 			transition: transform 0.5s ease;
+// 		}
 
-.gallery li.active{
-			-webkit-transform:rotate(0deg) !important;
-			-moz-transform:rotate(0deg) !important;
-			transform:rotate(0deg) !important;
-		}
+// .gallery li.active{
+// 			-webkit-transform:rotate(0deg) !important;
+// 			-moz-transform:rotate(0deg) !important;
+// 			transform:rotate(0deg) !important;
+// 		}
 
-.gallery img{
-			display:block;
-			width:80px;
-			-webkit-transition: width 0.75s;
-			-moz-transition: width 0.75s;
-			transition: width 0.75s;
-			transform: scale(2.5);
-			padding:5px 5px 15px 5px;
-			background:#fff;
-			// border:solid black .25px;
-		}
+// .gallery img{
+// 			display:block;
+// 			width:80px;
+// 			-webkit-transition: width 0.75s;
+// 			-moz-transition: width 0.75s;
+// 			transition: width 0.75s;
+// 			transform: scale(2.5);
+// 			padding:5px 5px 15px 5px;
+// 			background:#fff;
+// 			// border:solid black .25px;
+// 		}
 
-.gallery .active img{
-			display:block;
-			transform: scale(2.5);
-		}
+// .gallery .active img{
+// 			display:block;
+// 			transform: scale(2.5);
+// 		}
