@@ -11451,17 +11451,6 @@ iframe.uk-cover {
   display: block;
 }
 
-.mejs__controls {
-  bottom: 225px;
-}
-
-.mejs__container {
-  background: transparent;
-  top: 180px;
-  margin-bottom: 100px;
-  height: 600px;
-}
-
 h1 {
   font-family: 'Sacramento', cursive;
   color: hotpink;
@@ -11480,7 +11469,7 @@ footer {
 
 footer a {
   color: hotpink;
-  font-size: 6pt;
+  font-size: 10pt;
 }
 
 article {
@@ -11489,7 +11478,6 @@ article {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
   font-size: 12px;
-  top: 300px;
 }
 
 h2 {
@@ -11513,23 +11501,12 @@ h2 {
   color: black;
 }
 
-div p {
-  color: hotpink;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 10px;
-  font-size: 24px;
-}
-
 h3 {
   font-family: 'Sacramento', cursive;
   color: black;
 }
 
-.hal {
-  transform: scale(1.25);
-}
-
-.uk-grid>* {
-  padding: 0;
-  margin: 0;
+.uk-h4,
+h4 {
+  color: hotpink;
 }
