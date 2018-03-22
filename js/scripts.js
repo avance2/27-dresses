@@ -3,7 +3,14 @@ console.log('Be like Browser.');
 $('h1').lettering();
 
 // Video Player
-$('video').mediaelementplayer();
+$('video').mediaelementplayer({
+	start: 5,
+});
+
+// $('div').tubular({videoId : 'ZWdZcczZAcc', 
+// mute : false, 
+// start : 9, 
+// });
 
 // Code from: Jonathan Gotti https://codepen.io/malko/pen/Eyxep
 $(function(){
